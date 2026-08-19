@@ -126,7 +126,7 @@ Open `http://localhost:5173`.
 - "Food Delivery vs Dining Out spending" → vector search on both sides of the comparison
 - "Show me my travel related spending" → semantic vector search over transaction descriptions
 
-## What I'd highlight in an interview
+**why this project is useful ?**
 
 > Bank statement merchant names are inconsistent — the same transaction can appear under five
 > different text formats. I built a local feature-hashing embedding layer for fuzzy merchant/
@@ -135,10 +135,4 @@ Open `http://localhost:5173`.
 > whichever retrieval strategy actually answers it, rather than doing pure semantic search over
 > the whole dataset.
 
-## Possible extensions
-- Swap the local embedding function for a real embedding API (OpenAI/Cohere) — isolated to one
-  function in `embeddings.js`
-- Swap MongoDB's `$graphLookup` for a dedicated graph DB (Neo4j) if the relationship queries grow
-  more complex (multi-hop reasoning, weighted paths)
-- Real bank statement/CSV upload + parsing instead of synthetic seed data
-- Auth + multi-user support
+

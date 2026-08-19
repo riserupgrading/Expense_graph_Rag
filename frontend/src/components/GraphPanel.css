@@ -1,0 +1,24 @@
+.graph-card {
+  padding-top: 18px;
+}
+
+.graph-legend {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.graph-scroll {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  background: radial-gradient(circle at 10% 0%, rgba(45, 212, 191, 0.05), transparent 40%);
+}
+
+.graph-svg {
+  min-width: 860px;
+}
+
+.graph-node {
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
